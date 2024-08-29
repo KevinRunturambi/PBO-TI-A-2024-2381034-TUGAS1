@@ -8,8 +8,9 @@ public class TipeDataString {
         String lastName = "Runturambi";
 
         // Concat
-          String fullName = firstName + lastName;
-          String Fullname
+        //  String fullName = firstName + lastName;
+          String fullName = firstName.concat(" ").concat(lastName);
+        System.out.println(fullName);
 
     }
 }

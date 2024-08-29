@@ -8,13 +8,11 @@ public class BuatVariabel {
         // variable nama benda
         // nama variable pakai camel case
 
-        String universitasAdventIndonesia; // universitas advent indonesia
-
-
-        int kevin =  10;
-
+        String showInfo = "Nama Saya " + name;
         // final -> constanta
         final float nilaiPhytagoras = 3.14F;
         // nilaiPhytagoras - 1.3F;
+
+        System.out.println(showInfo);
     }
 }
